@@ -1,0 +1,150 @@
+/*menu*/
+
+.navbar{
+    margin-left: 550px;
+     margin-top: 5px;
+   color: #13c2c2 !important;
+
+}
+.nav-link{
+    color:  #13c2c2 !important;
+    margin: 0 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+nav-link.active,
+.nav-link:hover{
+    background-color: #24B5B5;
+    color: white !important;
+    border-radius: 5px;
+}
+/*.logo{
+    background: url(image/logo.jpeg);
+    width: 100px;
+    height: 30px;
+}*/
+
+
+/*reclamation*/
+
+body{
+    background: rgb(229, 229, 229);
+    height: 580px;
+   
+}
+.btn1{
+  align-content: center;
+  margin-bottom: 400px;
+  margin-top: 150px;
+  margin-left: 500px;
+  height: 100px;
+  width: 100px;
+
+}
+.modal-content{
+    background-color: #25cbcb;
+}
+.btn1{
+    background-color: #25cbcb;
+    color: white;
+    border-radius: 5px;
+    border-color: #25cbcb;
+}
+.btn2{
+    background-color: #bdf6f6;
+    color: #25cbcb;
+    border-radius: 5px;
+    border-color: #25cbcb;
+}
+
+/*text*/
+#texte h4{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+#texte h6{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+/*footer*/
+
+footer{
+    background: #13c2c2;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 550px;
+
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+.copyright{
+    text-align: center;
+    display: flex;
+    margin-left: 450px;
+}
+
+#contact .heading h2{
+    color: #fff;
+}
+#contact-form{
+    font-size: 20px;
+    color: #13c2c2;
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 300px;
+    border-radius: 10px;
+    border-color: #13c2c2;
+}
+.form-control{
+    height: 50px;
+    font-size: 18px;
+}
+.comments{
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px;
+}
+#contact-form input[type=submit]
+{
+    margin: 40px auto 0px;
+    display: block;
+    background-color: #13c2c2;
+    color: white;
+    border-radius: 5px;
+    border-color: #13c2c2;
+}
+input[placeholder]{
+    color: #13c2c2;
+}
