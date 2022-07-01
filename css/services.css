@@ -1,0 +1,60 @@
+#services .heading h2 {
+    color: #1dadad;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+
+#services .carousel-item {
+    padding: 30px 90px 60px;
+}
+
+#services .carousel-item h3 {
+    color: #1dadad;
+}
+
+.services-block {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #1dadad;
+    margin-bottom: 20px;
+}
+
+.services-block h3 {
+    color: #1dadad;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.services-block p {
+    font-size: 12px;
+
+}
+
+
+
+.button-services {
+    font-weight: bold;
+    color: #1dadad;
+    text-transform: uppercase;
+    border: 1px solid #1dadad;
+    padding: 18px 50px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 20px auto;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button-services:hover {
+    background: #1dadad;
+    color: white;
+}
+
+section .col-md-12 {
+    text-align: center;
+}
