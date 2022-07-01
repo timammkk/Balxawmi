@@ -1,23 +1,27 @@
-/*menu*/
+/* NAVBAR */
+.navbar {
+background: #1dadad;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-weight: bold;
+border-bottom: 1px solid #fff;
+}
 
-.navbar{
-    margin-left: 550px;
-     margin-top: 5px;
-   color: #13c2c2 !important;
+.navbar-nav {
+margin: 0 auto;
+text-align: center;
+}
 
+.nav-link {
+color: #fff !important;
+margin: 0 6px;
 }
-.nav-link{
-    color:  #13c2c2 !important;
-    margin: 0 6px;
-    font-weight: bold;
-    font-size: 15px;
+
+.nav-link.active, .nav-link:hover {
+color: #1dadad !important;
+background-color: #fff;
 }
-nav-link.active,
-.nav-link:hover{
-    background-color: #24B5B5;
-    color: white !important;
-    border-radius: 5px;
-}
+
 /*.logo{
     background: url(image/logo.jpeg);
     width: 100px;
