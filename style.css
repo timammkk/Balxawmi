@@ -1,5 +1,5 @@
 /* GENERAL */
-body{
+body {
     background: rgb(229, 229, 229);
 }
 
@@ -35,7 +35,8 @@ section .heading {
     margin: 0 6px;
 }
 
-.nav-link.active, .nav-link:hover {
+.nav-link.active,
+.nav-link:hover {
     color: #24b5b5 !important;
     background-color: #fff;
 }
@@ -125,7 +126,7 @@ img {
     background: rgba(36, 181, 181, 0.2);
 }
 
-.btn1{
+.btn1 {
     align-content: center;
     margin-bottom: 400px;
     margin-top: 150px;
@@ -134,18 +135,18 @@ img {
     width: 100px;
 }
 
-.modal-content{
+.modal-content {
     background-color: #25cbcb;
 }
 
-.btn1{
+.btn1 {
     background-color: #25cbcb;
     color: white;
     border-radius: 5px;
     border-color: #25cbcb;
 }
 
-.btn2{
+.btn2 {
     background-color: #bdf6f6;
     color: #25cbcb;
     border-radius: 5px;
@@ -153,19 +154,20 @@ img {
 }
 
 /*text*/
-#texte h4{
+#texte h4 {
     text-align: center;
     margin-top: 50px;
     color: white;
 }
-#texte h6{
+
+#texte h6 {
     text-align: center;
     margin-top: 25px;
     color: white;
 }
 
 /*FOOTER*/
-footer{
+footer {
     background: #13c2c2;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -176,68 +178,111 @@ footer .row {
     text-align: center;
 }
 
-footer ul{
+footer ul {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-footer ul li{
+footer ul li {
     margin: 20px 30px;
 }
 
-footer ul li a{
+footer ul li a {
     text-decoration: none;
     color: white;
     font-size: 30px;
     text-align: center;
 }
 
-.copyright{
+.copyright {
     text-align: center;
     margin-bottom: 20px;
 }
 
 /* CONTACTS  */
-#contact .heading h2{
-    color: #fff;
+.heading {
+    text-align: center;
+    padding-bottom: 40px;
 }
 
-#contact-form{
+h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #000;
+}
+
+#contact-form {
     font-size: 20px;
-    color: #13c2c2;
-    background-color: white;
-    margin-left: 300px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    height: 300px;
+    background: #f8f9f9;
+    padding: 20px;
     border-radius: 10px;
     border-color: #13c2c2;
+
 }
 
-.form-control{
+.blue {
+    color: #0069d6;
+}
+
+.form-control {
     height: 50px;
     font-size: 18px;
+    width: 50%;
 }
-.comments{
+
+#contact-form input[type=submit] {
+    margin: 20px 0px;
+    display: block;
+    width: 50%;
+}
+
+.comments {
     font-style: italic;
     font-size: 18px;
-    color: #fff;
-    height: 25px;
+    color: #d82c2e;
+    height: 25px
 }
 
-#contact-form input[type=submit]
-{
-    margin: 40px auto 0px;
-    display: block;
-    background-color: #13c2c2;
-    color: white;
-    border-radius: 5px;
-    border-color: #13c2c2;
+#contact-form .thank-you {
+    text-align: left;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 22px;
 }
 
-input[placeholder]{
-    color: #13c2c2;
+.button1 {
+    box-align: left;
+    border: 1px solid #ddd;
+    background: #1dadad;
+    color: #000;
+    width: 50%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+    background: #118888;
+}
+
+.btn {
+    width: 5%;
+    box-shadow: #f8f9f9;
+    scroll-margin-left: 10px;
+    font-weight: bolder;
+    padding: 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in 0s;
+    border: 1px solid #ddd;
+    background: #1dadad;
+
+}
+
+img {
+    width: 50%;
+    float: left;
 }
