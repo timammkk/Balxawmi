@@ -1,75 +1,354 @@
-/*menu*/
-.logo{
-    font-size: 40px;
+/* GENERAL */
+body {
+    background: rgb(229, 229, 229);
 }
-.img{
-    height: 580px;
-    background: url(../image/12.jpeg) center no-repeat;
-    opacity: 0.5 #e5e5e5;
-}
-.navbar{
-    margin-left: 550px;
-     margin-top: 5px;
-   color: #13c2c2 !important;
 
-}
-.nav-link{
-    color:  #13c2c2 !important;
-    margin: 0 6px;
+h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    font-size: 15px;
 }
-nav-link.active,
-.nav-link:hover{
-    background-color: #24B5B5;
-    color: white !important;
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: #1dadad;
+    margin: 40px auto 20px
+}
+
+section .heading {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+/* NAVBAR */
+.navbar {
+    background: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 3px solid #24b5b5;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin: 0 6px;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #24b5b5 !important;
+    background-color: #fff;
+}
+
+#myNavbar img {
+    width: 128px;
+    height: 100%
+}
+
+/* SLOGAN */
+#slogan {
+    text-align: center;
+    height: 400px;
+    background-image: url(images/12.jpeg);
+    opacity: 0.7;
+}
+
+#slogan h3 {
+    /* margin-top: 25px; */
+    width: 30%;
+    text-transform: uppercase;
+    color: black;
+    margin: auto;
+}
+
+/* NOS-SERVICES-ACUEIL */
+#nos-services .heading h2 {
+    color: #1dadad;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+#nos-services .service-accueil {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    background: rgba(36, 181, 181, 0.2);
     border-radius: 5px;
+    border: 1px solid #1dadad;
+    margin-bottom: 30px;
 }
 
-h3{
-    margin: 200px;
+#nos-services .service-accueil img {
+    width: 64px;
+    height: 64px;
+}
+
+#nos-services .grey {
+    background: rgba(128, 128, 128, 0.1);
+}
+
+#nos-services .green {
+    background: rgba(36, 181, 181, 0.2);
+}
+
+#nos-services {
+    margin: 0 60px 20px;
+}
+
+#nos-services .service-accueil a {
+    text-decoration: none;
+}
+
+/* CONTACTEZ-NOUS*/
+#contact .heading h2 {
+    color: #1dadad;
+    margin: 15px auto;
+    text-transform: uppercase;
+}
+
+#contact-form {
+    font-size: 20px;
+    background: #f8f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #13c2c2;
+}
+
+.blue {
+    color: #0069d6;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+    width: 50%;
+}
+
+#contact-form input[type=submit] {
+    margin: 20px 0px;
+    display: block;
+    width: 50%;
+}
+
+.comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px
+}
+
+#contact-form .thank-you {
+    text-align: left;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.button1 {
+    box-align: left;
+    border: 1px solid #ddd;
+    background: #1dadad;
+    color: #000;
+    width: 50%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+    background: #118888;
+}
+
+/* .btn {
+    width: 5%;
+    box-shadow: #f8f9f9;
+    scroll-margin-left: 10px;
+    font-weight: bolder;
+    padding: 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in 0s;
+    border: 1px solid #ddd;
+    background: #1dadad;
+} */
+
+/* QUI SOMMES-NOUS */
+#about-us .heading h2 {
+    color: #1dadad;
+    margin: 15px auto;
+    text-transform: uppercase;
+}
+
+.about-us-text {
+    width: 100%;
+    margin: 0 0 40px;
     text-align: center;
+}
+
+.about-us-text span {
+    font-weight: bold;
+}
+
+#about-us .about-us-image img {
+    width: 100%;
+    height: 220px;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+
+/* SERVICES */
+#services .heading h2 {
+    color: #1dadad;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+#services .carousel-item {
+    padding: 30px 90px 60px;
+}
+
+#services .carousel-item h3 {
+    color: #1dadad;
+}
+
+.services-block {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #1dadad;
+    margin-bottom: 20px;
+}
+
+.services-block h3 {
+    color: #1dadad;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.services-block p {
+    font-size: 12px;
+
+}
+
+/* .button-services {
+    font-weight: bold;
+    color: #1dadad;
+    text-transform: uppercase;
+    border: 1px solid #1dadad;
+    padding: 18px 50px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 20px auto;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button-services:hover {
+    background: #1dadad;
+    color: white;
+} */
+
+#quotation .col-lg-12 {
+    text-align: center;
+    margin: 20px auto 40px;
+}
+
+.btn {
+    border: 1px solid #24B5B5;
+    color: #24B5B5;
+    background: white;
+}
+
+.btn:hover {
+    /* border: 1px solid #24B5B5; */
+    color: white;
+    background: #24B5B5;
+}
+
+#quotation .modal-body {
+    background: white;
+}
+
+.btn1 {
+    align-content: center;
+    margin-bottom: 400px;
+    margin-top: 150px;
+    margin-left: 500px;
+    height: 100px;
+    width: 100px;
+}
+
+.modal-content {
+    background-color: #25cbcb;
+}
+
+.btn1 {
+    background-color: #25cbcb;
+    color: white;
+    border-radius: 5px;
+    border-color: #25cbcb;
+}
+
+.btn2 {
+    background-color: #bdf6f6;
+    color: #25cbcb;
+    border-radius: 5px;
+    border-color: #25cbcb;
+}
+
+/*text*/
+#texte h4 {
+    text-align: center;
+    margin-top: 50px;
     color: white;
 }
 
-/*footer*/
+#texte h6 {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
 
-footer{
+/*FOOTER*/
+footer {
     background: #13c2c2;
-    height: auto;
-    width: 100vw;
     padding-top: 40px;
+    padding-bottom: 40px;
     color: white;
 }
-.footer-content{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+
+footer .row {
     text-align: center;
 }
-.socials{
+
+footer ul {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 550px;
+}
 
+footer ul li {
+    margin: 20px 30px;
 }
-.socials li{
-    margin: 0 10px;
-}
-.socials a{
+
+footer ul li a {
     text-decoration: none;
     color: white;
     font-size: 30px;
     text-align: center;
 }
-.bloc{
-    width: 25%;
-    margin: 0 30px;
-}
-.copyright{
+
+.copyright {
     text-align: center;
-    display: flex;
-    margin-left: 450px;
+    margin-bottom: 20px;
 }
