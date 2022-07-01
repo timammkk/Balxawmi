@@ -22,7 +22,7 @@ body{
 }
 
 .nav-link.active, .nav-link:hover {
-    color: #1dadad !important;
+    color: #24b5b5 !important;
     background-color: #fff;
 }
 
@@ -33,12 +33,21 @@ body{
 
 /* SLOGAN */
 #slogan {
+    width: 100%;
+    height: 100%;
+    /* text-align: center;
+    text-transform: uppercase;
+    color: #1dadad;
+    margin: 50px auto; */
+    background-image: url(images/12.jpeg) ;
+}
+
+#slogan h3 {
     width: 30%;
     text-align: center;
     text-transform: uppercase;
     color: #1dadad;
     margin: 50px auto;
-    background-image: url(images/12.jpeg);
 }
 
 .btn1{
@@ -80,51 +89,42 @@ body{
     color: white;
 }
 
-/*footer*/
+/*FOOTER*/
 footer{
     background: #13c2c2;
-    height: auto;
-    width: 100%;
     padding-top: 40px;
+    padding-bottom: 40px;
     color: white;
 }
 
-.footer-content{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+footer .row {
     text-align: center;
 }
 
-.socials{
+footer ul{
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-left: 550px; */
-
 }
 
-.socials li{
-    margin: 0 10px;
+footer ul li{
+    margin: 20px 30px;
 }
 
-.socials a{
+footer ul li a{
     text-decoration: none;
     color: white;
     font-size: 30px;
     text-align: center;
 }
-.bloc{
-    width: 25%;
-    margin: 0 30px;
-}
+
 .copyright{
     text-align: center;
-    display: flex;
-    margin-left: 450px;
+    margin-bottom: 20px;
 }
 
+/* CONTACTS  */
 #contact .heading h2{
     color: #fff;
 }
