@@ -1,73 +1,86 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Contactez-moi</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<title>Réclamation</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 		<div id="myNavbar" class="container-fluid">
-			<!-- <a class="navbar-brand" href="#">Balxawmi</a> -->
-			<img src="../images/BGS.png" class="navbar-brand" alt="Logo">
+			<a class="navbar-brand" href="../index.html"><img src="../images/BGS.png" class="navbar-brand" alt="Balxawmi"></a>	
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
 				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-link " aria-current="page" href="../index.html" target="_blank">Accueil</a>
-					<a class="nav-link" href="#products">Produits</a>
+					<a class="nav-link " aria-current="page" href="../index.html">Accueil</a>
+					<a class="nav-link" href="produit.html">Produits</a>
 					<a class="nav-link" href="service.html" target="_blank">services</a>
-					<a class="nav-link" href="#contacts">Contacts</a>
-					<a class="nav-link" href="#about-us">A Propos de nous</a>
-					<a class="nav-link active" href="#reclamation" target="_blank">Réclamation</a>
-					<a class="nav-link bi bi-person-fill" href="connexion.html" target="_blank"> Login</a>
-					<a class="nav-link" href="#" ><i class="panier bi-cart3"></i></a>
+					<a class="nav-link" href="../#contacts">Contacts</a>
+					<a class="nav-link" href="apropos.html">A Propos de nous</a>
+					<a class="nav-link active" href="#reclamation">Réclamation</a>
+					<a class="nav-link bi bi-person-fill" href="connexion.html"> Login</a>
+					<a class="nav-link" href="#"><i class="panier bi-cart3"></i></a>
 				</div>
 			</div>
 		</div>
 	</nav>
 
-<section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-1">
-                    <form id="contact-form" method="post" action="" role="form">
-						<label for="email">Email*</label>
-						<input type="text" id="email" name="email"  class="form-control" placeholder="Votre email">
-						<p class="comments"></p>
-						<label for="message">Message*</label>
-						<textarea name="message" id="message" class="form-control" placeholder="Votre message" rows="4" ></textarea>
-						<p class="comments"></p>
-						<input type="submit" class="button1" value="Envoyer">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+	<section id="reclamation">
+		<div class="container">
+			<form id="contact-form" method="post" action="" role="form">
+				<!-- <label for="email">Email *</label>
+				<input type="text" id="email" name="email" class="form-control" placeholder="Votre email">
+				<p class="comments"></p>
+				<label for="message">Message *</label>
+				<textarea name="message" id="message" class="form-control" placeholder="Votre message" rows="4"></textarea>
+				<p class="comments"></p>
+				<input type="submit" class="btn" value="Envoyer"> -->
+				<div>
+					<label for="email">Email <span class="obligatoire">*</span></label>
+					<input type="text" id="email" name="email" class="form-control" placeholder="Votre email">
+					<p class="comments"></p>
+				</div>
+				<div>
+					<label for="message">Message <span class="obligatoire">*</span></label>
+					<textarea name="message" id="message" class="form-control" placeholder="Votre message" rows="4"></textarea>
+					<p class="comments"></p>
+				</div>
+				<div>
+					<h6 class="obligatoire">* Ces informations sont requises.</h6>
+				</div>
+				<div>
+					<!-- <button type="submit" class="btn">Envoyer</button> -->
+					<input type="submit" class="btn" value="Envoyer">
+				</div>
+			</form>
+		</div> 
+	</section>
 
-    <footer>
+	<footer>
 		<div class="row">
 			<div class="col-lg-6">
-				<div class="bloc">
-					<h4>NOS SERVICES</h4>
-					<p>-Developpement <br> -Web Design <br> -Devis et Vente </p>
-				</div>
+				<h5>NOS SERVICES</h5>
+				<p>Developpement Web</p>
+				<p>Design</p> 
+				<p>Devis et Vente</p>
 			</div>
 			<div class="col-lg-6">
-				<div class="bloc">
-					<h4>NOS SERVICES</h4>
-					<p>-Developpement <br> -Web Design <br> -Devis et Vente </p>
-				</div>
+				<h5>NOS CONTACTS</h5>
+				<p>Phone: +1 5589 55488 55</p> 
+				<p>Email : <a mailto="alexandre@esp.sn">alexandre@esp.sn</a></p>
 			</div>
 		</div>
 
@@ -84,4 +97,5 @@
 		</div>
 	</footer>
 </body>
+
 </html>
