@@ -1,0 +1,110 @@
+/* GENERAL */
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0px 0px;
+	background: rgb(229, 229, 229);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+
+.divider {
+	width: 100px;
+	height: 2px;
+	background-color: #24B5B5;
+	margin: 40px auto 20px
+}
+
+section .heading {
+	text-align: center;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+/* CONTACT */
+#contact {
+	margin-top: 40px;
+}
+
+#contact .heading h2 {
+	color: #24B5B5;
+	margin: 15px auto;
+	text-transform: uppercase;
+}
+
+#contact-form {
+	font-size: 15px;
+	background: #f8f9f9;
+	padding: 40px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+.obligatoire {
+	color: #24b5b5;
+}
+
+#contact-form input[type="submit"] {
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 100%;
+	border-color: #ced4da;
+	background: #fff;
+	font-size: 12px;
+	padding: 10px;
+	color: #000;
+}
+
+#contact-form input[type="submit"]:hover {
+	background: #24b5b5;
+	color: #fff;
+}
+
+/* #contact-form .btn {
+	border-color: #ced4da;
+	background: #fff;
+	font-size: 15px;
+	padding: 10px;
+}
+
+#contact-form .btn:hover {
+	background: #24B5B5;
+	color: #fff;
+} */
+
+.comments {
+	font-style: italic;
+	font-size: 18px;
+	color: #d82c2e;
+	height: 25px
+}
+
+#contact-form .thank-you {
+	text-align: left;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/* .button1 {
+	box-align: left;
+	border: 1px solid #ddd;
+	background: #24B5B5;
+	color: #000;
+	width: 50%;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 18px;
+	border-radius: 30px;
+	transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+	background: #118888;
+} */

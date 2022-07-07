@@ -1,0 +1,32 @@
+.navbar {
+	margin: auto;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 3px solid #24b5b5;
+}
+
+.navbar-nav {
+	margin: auto 0px auto auto;
+	text-align: center;
+	font-size: 12px;
+}
+
+.nav-link {
+	color: #fff !important;
+	margin: 0 8px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+	color: #24b5b5 !important;
+	background-color: #fff;
+}
+
+#myNavbar img {
+	width: 80px;
+}
+
+.panier {
+	margin: auto;
+}

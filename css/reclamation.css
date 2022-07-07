@@ -1,0 +1,39 @@
+/* GENERAL */
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0px 0px;
+	background: rgb(229, 229, 229);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+
+.divider {
+	width: 100px;
+	height: 2px;
+	background-color: #24B5B5;
+	margin: 40px auto 20px
+}
+
+section .heading {
+	text-align: center;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+/* RECLAMATION */
+#reclamation {
+	margin: 60px auto;
+}
+
+#reclamation .heading h2 {
+	color: #24B5B5;
+	margin: 15px auto;
+	text-transform: uppercase;
+}
